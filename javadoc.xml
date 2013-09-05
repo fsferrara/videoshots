@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="javadoc">
+	<target name="javadoc">
+		<javadoc access="private" author="true" classpath="/Users/ferrara/Desktop/progettobasi/apache-tomcat-6.0.20/lib/jsp-api.jar:WebContent/WEB-INF/lib/cos.jar:WebContent/WEB-INF/lib/BaseX57-xmldb.jar:WebContent/WEB-INF/lib/BaseX57-xqj.jar:/Users/ferrara/Desktop/progettobasi/apache-tomcat-6.0.20/lib/servlet-api.jar:WebContent/WEB-INF/lib/BaseX57.jar:WebContent/WEB-INF/lib/BaseX57-console.jar" destdir="WebContent/documentazione/javadoc" doctitle="Progetto di Basi di Dati e Sistemi Informativi II mod B" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" overview="/Users/ferrara/Desktop/progettobasi/workspace/videoshots/WebContent/documentazione/documentazione.html" packagenames="gestionexml,utility,servlet" source="1.5" sourcepath="src" splitindex="true" use="true" version="true" />
+	</target>
+</project>

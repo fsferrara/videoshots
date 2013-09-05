@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+	<Description xsi:type="ContentEntityType">
+		<MultimediaContent xsi:type="VideoType">
+			<Video>
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="MPEG7ContentCS" />
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001:16">
+								<Name>quicktime</Name>
+							</FileFormat>
+							<FileSize>17333073</FileSize>
+							<BitRate>8000</BitRate>
+							<VisualCoding>
+								<Frame height="576" width="720" />
+							</VisualCoding>
+						</MediaFormat>
+						<MediaInstance id="videoNews20090201_video_15213221">
+							<InstanceIdentifier />
+							<MediaLocator>
+								<MediaUri>http://localhost:8080/servlet//Archivio/Video/20090201_video_15213221.mov
+								</MediaUri>
+							</MediaLocator>
+						</MediaInstance>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title xsi:type="main">Obama: presto un piano per famiglie Usa per
+							tagliare costi mutui</Title>
+						<Title xsi:type="secondary">Presidente cerca arginare effetti devastante
+							crisi economica</Title>
+						<Abstract>
+							<FreeTextAnnotation>Barack Obama pensa alle famiglie e ha
+								annunciato che a breve lancerà un nuovo piano finanziario mirato
+								ad abbassare i costi dei mutui e quindi a combattere i
+								pignoramenti. Il presidente degli Stati Uniti cerca di arginare
+								gli effetti sulla popolazione della crisi scatenata dai mutui
+								non garantiti, i cosiddetti "sub prime". La nuova strategia
+								servirà a rivitalizzare il sistema finanziario in modo che il
+								credito affluisca a imprese e famiglie. Obama però ha
+								riconosciuto che "è probabile che l'economia peggiori ancora
+								prima di migliorare"</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:WebCaster" />
+							<Agent xsi:type="OrganizationType">
+								<Name>Apcom</Name>
+							</Agent>
+						</Creator>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:Author" />
+							<Agent xsi:type="PersonType">
+								<Name>
+									<GivenName>Red</GivenName>
+								</Name>
+							</Agent>
+						</Creator>
+						<CreationCoordinates>
+							<Location>
+								<Name>milano</Name>
+							</Location>
+							<Date>
+								<TimePoint>2009-02-01T15:21</TimePoint>
+							</Date>
+						</CreationCoordinates>
+						<CopyrightString>TMNews</CopyrightString>
+					</Creation>
+					<Classification>
+						<Genre href="urn:mpeg:mpeg7:cs:GenreCS:2001:1.1.5">
+							<Name>International</Name>
+						</Genre>
+					</Classification>
+					<RelatedMaterial>
+						<MediaInformationRef idref="videoNews20090201_video_17483840" />
+					</RelatedMaterial>
+				</CreationInformation>
+				<MediaTime>
+					<MediaTimePoint>T00:00:00</MediaTimePoint>
+					<MediaDuration>PT0H0M29S</MediaDuration>
+				</MediaTime>
+				<TemporalDecomposition>
+					<VideoSegment
+						id="videoNews20090201_video_15213221T00:00:01PT00H00M20SObama parla">
+						<MediaTime>
+							<MediaTimePoint>T00:00:01</MediaTimePoint>
+							<MediaDuration>PT00H00M20S</MediaDuration>
+						</MediaTime>
+						<CreationInformation>
+							<Creation>
+								<Title>Obama parla</Title>
+							</Creation>
+						</CreationInformation>
+						<TemporalDecomposition>
+							<VideoSegment
+								id="videoNews20090201_video_15213221T00:00:01PT00H00M10SObama parla politica">
+								<MediaTime>
+									<MediaTimePoint>T00:00:01</MediaTimePoint>
+									<MediaDuration>PT00H00M10S</MediaDuration>
+								</MediaTime>
+								<CreationInformation>
+									<Creation>
+										<Title>Obama parla politica</Title>
+									</Creation>
+								</CreationInformation>
+							</VideoSegment>
+							<VideoSegment
+								id="videoNews20090201_video_15213221T00:00:12PT00H00M05SObama parla economia">
+								<MediaTime>
+									<MediaTimePoint>T00:00:12</MediaTimePoint>
+									<MediaDuration>PT00H00M05S</MediaDuration>
+								</MediaTime>
+								<CreationInformation>
+									<Creation>
+										<Title>Obama parla economia</Title>
+									</Creation>
+								</CreationInformation>
+							</VideoSegment>
+						</TemporalDecomposition>
+					</VideoSegment>
+				</TemporalDecomposition>
+			</Video>
+		</MultimediaContent>
+		<MultimediaContent xsi:type="ImageType">
+			<Image>
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="MPEG7ContentCS" />
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001:1">
+								<Name>jpg</Name>
+							</FileFormat>
+							<FileSize>12014</FileSize>
+							<BitRate>0</BitRate>
+							<VisualCoding>
+								<Frame height="288" width="360" />
+							</VisualCoding>
+						</MediaFormat>
+						<MediaInstance>
+							<InstanceIdentifier />
+							<MediaLocator>
+								<MediaUri>http://localhost:8080/servlet//Archivio/Immagini/20090201_video_15213221.jpg
+								</MediaUri>
+							</MediaLocator>
+						</MediaInstance>
+					</MediaProfile>
+				</MediaInformation>
+			</Image>
+		</MultimediaContent>
+	</Description>
+	<Description xsi:type="ContentEntityType">
+		<MultimediaContent xsi:type="VideoType">
+			<Video>
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="MPEG7ContentCS" />
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001:16">
+								<Name>quicktime</Name>
+							</FileFormat>
+							<FileSize>32362860</FileSize>
+							<BitRate>8000</BitRate>
+							<VisualCoding>
+								<Frame height="576" width="720" />
+							</VisualCoding>
+						</MediaFormat>
+						<MediaInstance id="videoNews20090201_video_17483840">
+							<InstanceIdentifier />
+							<MediaLocator>
+								<MediaUri>http://localhost:8080/servlet//Archivio/Video/20090201_video_17483840.mov
+								</MediaUri>
+							</MediaLocator>
+						</MediaInstance>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title xsi:type="main">Gaza, nuove tensioni dopo il lancio di razzi
+							palestinesi</Title>
+						<Title xsi:type="secondary">Olmert: "La nostra reazione sarà smisurata"
+						</Title>
+						<Abstract>
+							<FreeTextAnnotation>Rischia di precipitare di nuovo la situazione
+								in Medioriente. Il prermier israeliano Ehud Olmert ha minacciato
+								"una reazione smisurata" ai quattro razzi lanciati da Gaza in
+								territorio israeliano. Sebbene non ci siano state vittime, né
+								danni, Olmert ha usato la parola "smisurata" in riferimento
+								polemico con le Nazioni Unite che hanno accusato Israele di aver
+								scatenato un'offensiva eccessiva nella Striscia di Gaza.
+								Nonostante questo, il lavoro della diplomazia va avanti. Hamas
+								ha accettato la proposta egiziana per una tregua nelle azioni
+								ostile contro Israele. Il ministro degli Esteri israeliano,
+								Tzipi Livni ha detto di essere contraria alla moratoria
+								proposta, mentre il ministro della Difesa, Ehud Barak ha
+								dichiarato di essere favorevole invece all'accordo con il gruppo
+								palestinese.</FreeTextAnnotation>
+							<KeywordAnnotation>
+								<Keyword>Obama</Keyword>
+								<Keyword>famiglie</Keyword>
+							</KeywordAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:WebCaster" />
+							<Agent xsi:type="OrganizationType">
+								<Name>Apcom</Name>
+							</Agent>
+						</Creator>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:Author" />
+							<Agent xsi:type="PersonType">
+								<Name>
+									<GivenName>Red</GivenName>
+								</Name>
+							</Agent>
+						</Creator>
+						<CreationCoordinates>
+							<Location>
+								<Name>milano</Name>
+							</Location>
+							<Date>
+								<TimePoint>2009-02-01T17:48</TimePoint>
+							</Date>
+						</CreationCoordinates>
+						<CopyrightString>TMNews</CopyrightString>
+					</Creation>
+					<Classification>
+						<Genre href="urn:mpeg:mpeg7:cs:GenreCS:2001:1.1.5">
+							<Name>International</Name>
+						</Genre>
+					</Classification>
+					<RelatedMaterial>
+						<MediaInformationRef idref="videoNews20090201_video_15213221" />
+					</RelatedMaterial>
+				</CreationInformation>
+				<MediaTime>
+					<MediaTimePoint>T00:00:00</MediaTimePoint>
+					<MediaDuration>PT0H0M43S</MediaDuration>
+				</MediaTime>
+			</Video>
+		</MultimediaContent>
+		<MultimediaContent xsi:type="ImageType">
+			<Image>
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="MPEG7ContentCS" />
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001:1">
+								<Name>jpg</Name>
+							</FileFormat>
+							<FileSize>14404</FileSize>
+							<BitRate>0</BitRate>
+							<VisualCoding>
+								<Frame height="288" width="360" />
+							</VisualCoding>
+						</MediaFormat>
+						<MediaInstance>
+							<InstanceIdentifier />
+							<MediaLocator>
+								<MediaUri>http://localhost:8080/servlet//Archivio/Immagini/20090201_video_17483840.jpg
+								</MediaUri>
+							</MediaLocator>
+						</MediaInstance>
+					</MediaProfile>
+				</MediaInformation>
+			</Image>
+		</MultimediaContent>
+	</Description>
+</Mpeg7>
